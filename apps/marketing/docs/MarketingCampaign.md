@@ -1,14 +1,16 @@
 # Marketing Campaign Context
 
-A `MarketingCampaign` represents a strategic marketing initiative aimed at achieving specific business goals, such as brand awareness or customer acquisition.
+A `MarketingCampaign` represents a focused marketing effort to reach a set of target parties or customers.
 
-## Use Cases
-- **New Product Launch**: Organizing activities to promote a new product.
-- **Seasonal Promotion**: Campaigns for holidays or specific seasons.
-- **Lead Generation**: Initiatives focused on gathering potential customer information.
+## Lifecycle
+Campaigns progress through phases of planning, execution, and review.
 
-## Key Fields
-- **Campaign ID**: Unique identifier for the campaign.
-- **Campaign Name**: Descriptive name for easy identification.
-- **Campaign Summary**: Detailed overview of goals and methods.
-- **Status ID**: Current state of the campaign (e.g., Planned, Active, Completed).
+## Relationships
+- **Parties**: Associated with parties (customers, leads) via `ContactList`.
+- **Roles**: Parties are assigned roles like `CAMPAIGN_MANAGER`.
+- **Promotion**: Campaigns are often linked to specific product promotions (`ProductPromo`).
+
+## Business Logic
+1. **Targeting**: Campaigns are executed against one or more `ContactList` records which represent the target audience.
+2. **Attribution**: The effectiveness of a campaign is measured by tracking orders or responses that reference the campaign's ID.
+3. **Budgetary Coupling**: Campaigns can be linked back to the `Accounting` module's `Budget` to track marketing spend.

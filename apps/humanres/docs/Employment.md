@@ -3,12 +3,17 @@
 An `Employment` record represents an employment relationship between two parties.
 
 ## Lifecycle
-Employment begins on a `fromDate` and may terminate on a `thruDate`. It defines the roles each party plays in the relationship.
+Employment begins on a `fromDate` and may terminate on a `thruDate`. All employment relationships must have a clear start date and follow a defined termination process.
 
 ## Relationships
-- **Party From**: Typically the employer (e.g., an internal organization).
-- **Party To**: Typically the employee.
-- **Role Type**: Defines the roles (e.g., Employer, Employee) within the employment.
+- **Employer**: Typically an `INTERNAL_ORGANIZATIO` party.
+- **Employee**: Typically a `PERSON` party with the role of `EMPLOYEE`.
+- **Fulfillment**: Employment is often linked to an `EmplPosition` via `EmplPositionFulfillment`.
+
+## Business Logic
+1. **Relationship-Based**: Employment is a specialized form of `PartyRelationship` where the `relationshipName` is `EMPLOYMENT`.
+2. **Mandatory Roles**: Creating an employment record requires the parties involved to have the appropriate roles (`INTERNAL_ORGANIZATIO` and `EMPLOYEE`).
+3. **Overlapping Rules**: A person can have multiple employment records over time, but generally only one active `EMPLOYMENT` relationship with the same organization at a given time.
 
 ## Key Fields
 - **Party ID From**: The party acting as the employer.
