@@ -1,0 +1,32 @@
+{
+  "Name": "MarketingCampaign",
+  "DisplayName": "Marketing Campaign",
+  "TableName": "marketing_marketing_campaign",
+  "Attributes": [
+    {
+      "Field": "marketing_campaign_id",
+      "Header": "Campaign ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "campaign_name",
+      "Header": "Campaign Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "campaign_summary",
+      "Header": "Summary",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "status_id",
+      "Header": "Status",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "StatusItem"
+    }
+  ]
+}

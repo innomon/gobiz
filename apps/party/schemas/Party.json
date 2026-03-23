@@ -1,0 +1,31 @@
+{
+  "Name": "Party",
+  "DisplayName": "Party",
+  "TableName": "party",
+  "Attributes": [
+    {
+      "Field": "party_id",
+      "Header": "Party ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "party_type_id",
+      "Header": "Type",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "status_id",
+      "Header": "Status",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "enabled_apps": [
+    "accounting",
+    "party",
+    "order",
+    "product",
+    "content",
+    "humanres",
+    "manufacturing",
+    "marketing",
+    "workeffort"
+  ]
+}

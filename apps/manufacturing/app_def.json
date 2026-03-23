@@ -1,0 +1,17 @@
+{
+  "name": "manufacturing",
+  "display_name": "Manufacturing",
+  "description": "Manages production planning, Bill of Materials (BOM), and manufacturing tasks.",
+  "context": "The Manufacturing app provides tools for managing production processes. It handles Bill of Materials (BOM) definitions, manufacturing rules, production runs, and task calendars for resources. It is essential for coordinating shop floor operations and production planning.",
+  "roles": ["Production Manager", "Shop Floor Worker"],
+  "entities": {
+    "manufacturing_product_manufacturing_rule": {
+      "description": "Defines rules for converting products to parts or substituting materials during production.",
+      "context_file": "docs/ProductManufacturingRule.md"
+    },
+    "manufacturing_tech_data_calendar": {
+      "description": "Defines working hours and availability for machines or work centers.",
+      "context_file": "docs/TechDataCalendar.md"
+    }
+  }
+}

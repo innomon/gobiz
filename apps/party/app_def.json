@@ -1,0 +1,21 @@
+{
+  "name": "party",
+  "display_name": "Party Management",
+  "description": "Manages parties, persons, and groups.",
+  "context": "The Party app is the core of the system, managing all individuals and organizations. It provides a base for roles and relationships.",
+  "roles": ["Admin", "User"],
+  "entities": {
+    "Party": {
+      "description": "A base entity for all persons and groups.",
+      "context_file": "docs/Party.md"
+    },
+    "Person": {
+      "description": "Represents an individual person.",
+      "context_file": "docs/Person.md"
+    },
+    "PartyGroup": {
+      "description": "Represents an organization or group.",
+      "context_file": "docs/PartyGroup.md"
+    }
+  }
+}

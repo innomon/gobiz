@@ -1,0 +1,17 @@
+{
+  "name": "product",
+  "display_name": "Product Management",
+  "description": "Manages products, categories, and inventory.",
+  "context": "The Product app handles everything related to products, including catalogs, categories, and inventory tracking.",
+  "roles": ["Admin", "Warehouse Manager"],
+  "entities": {
+    "Product": {
+      "description": "A base entity for all products.",
+      "context_file": "docs/Product.md"
+    },
+    "ProductCategory": {
+      "description": "A classification system for grouping products.",
+      "context_file": "docs/ProductCategory.md"
+    }
+  }
+}

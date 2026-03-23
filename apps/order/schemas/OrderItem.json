@@ -1,0 +1,39 @@
+{
+  "Name": "OrderItem",
+  "DisplayName": "Order Item",
+  "TableName": "order_item",
+  "Attributes": [
+    {
+      "Field": "order_id",
+      "Header": "Order ID",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "OrderHeader"
+    },
+    {
+      "Field": "order_item_seq_id",
+      "Header": "Item Seq ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "product_id",
+      "Header": "Product",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Product"
+    },
+    {
+      "Field": "quantity",
+      "Header": "Quantity",
+      "DataType": "Number",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "unit_price",
+      "Header": "Unit Price",
+      "DataType": "Number",
+      "DisplayType": "Currency"
+    }
+  ]
+}

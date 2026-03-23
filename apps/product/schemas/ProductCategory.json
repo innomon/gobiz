@@ -1,0 +1,26 @@
+{
+  "Name": "ProductCategory",
+  "DisplayName": "Product Category",
+  "TableName": "product_category",
+  "Attributes": [
+    {
+      "Field": "product_category_id",
+      "Header": "Category ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "product_category_type_id",
+      "Header": "Category Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "ProductCategoryType"
+    },
+    {
+      "Field": "category_name",
+      "Header": "Category Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

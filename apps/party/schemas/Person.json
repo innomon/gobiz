@@ -1,0 +1,39 @@
+{
+  "Name": "Person",
+  "DisplayName": "Person",
+  "TableName": "person",
+  "Attributes": [
+    {
+      "Field": "party_id",
+      "Header": "Party ID",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Party"
+    },
+    {
+      "Field": "first_name",
+      "Header": "First Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "last_name",
+      "Header": "Last Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "gender",
+      "Header": "Gender",
+      "DataType": "String",
+      "DisplayType": "Select",
+      "Options": "M\nF"
+    },
+    {
+      "Field": "birth_date",
+      "Header": "Birth Date",
+      "DataType": "DateTime",
+      "DisplayType": "Date"
+    }
+  ]
+}

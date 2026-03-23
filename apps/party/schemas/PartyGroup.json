@@ -1,0 +1,26 @@
+{
+  "Name": "PartyGroup",
+  "DisplayName": "Party Group",
+  "TableName": "party_group",
+  "Attributes": [
+    {
+      "Field": "party_id",
+      "Header": "Party ID",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Party"
+    },
+    {
+      "Field": "group_name",
+      "Header": "Group Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "annual_revenue",
+      "Header": "Annual Revenue",
+      "DataType": "Float",
+      "DisplayType": "Number"
+    }
+  ]
+}

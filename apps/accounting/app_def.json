@@ -1,0 +1,17 @@
+{
+  "name": "accounting",
+  "display_name": "Accounting",
+  "description": "Manages budgets, invoices, ledgers, and payments.",
+  "context": "The Accounting app provides a comprehensive suite of tools for managing the financial aspects of a business. It includes support for budgeting, accounts payable (AP), accounts receivable (AR), fixed assets, and general ledger operations. It integrates with other modules like Order and Party to track financial transactions across the enterprise.",
+  "roles": ["Accounting Admin", "Accounting User"],
+  "entities": {
+    "accounting_budget": {
+      "description": "A financial plan for a defined period, often including planned sales volumes and revenues, resource quantities, costs and expenses, assets, liabilities and cash flows.",
+      "context_file": "docs/Budget.md"
+    },
+    "accounting_budget_item": {
+      "description": "An individual line item within a budget, specifying the amount and purpose for a particular category.",
+      "context_file": "docs/BudgetItem.md"
+    }
+  }
+}

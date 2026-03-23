@@ -1,0 +1,17 @@
+{
+  "name": "order",
+  "display_name": "Order Management",
+  "description": "Manages sales and purchase orders.",
+  "context": "The Order app tracks the lifecycle of sales and purchase transactions from creation to completion.",
+  "roles": ["Admin", "Sales Rep", "Customer"],
+  "entities": {
+    "OrderHeader": {
+      "description": "Header information for an order.",
+      "context_file": "docs/OrderHeader.md"
+    },
+    "OrderItem": {
+      "description": "Individual items within an order.",
+      "context_file": "docs/OrderItem.md"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "humanres",
+  "display_name": "Human Resources",
+  "description": "Manages employee records, qualifications, and employment history.",
+  "context": "The Human Resources app manages all aspects of employee life cycle, from recruitment and hiring to qualifications, performance reviews, and employment termination. It tracks employee roles, relationships, and qualifications within the organization.",
+  "roles": ["HR Admin", "HR Manager", "Employee"],
+  "entities": {
+    "humanres_party_qual": {
+      "description": "Represents a qualification held by a party, such as a degree, certification, or previous job title.",
+      "context_file": "docs/PartyQual.md"
+    },
+    "humanres_employment": {
+      "description": "Represents an employment relationship between two parties, typically an employer and an employee.",
+      "context_file": "docs/Employment.md"
+    }
+  }
+}

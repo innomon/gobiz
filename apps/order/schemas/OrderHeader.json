@@ -1,0 +1,39 @@
+{
+  "Name": "OrderHeader",
+  "DisplayName": "Order Header",
+  "TableName": "order_header",
+  "Attributes": [
+    {
+      "Field": "order_id",
+      "Header": "Order ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "order_type_id",
+      "Header": "Order Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "OrderType"
+    },
+    {
+      "Field": "status_id",
+      "Header": "Status",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "StatusItem"
+    },
+    {
+      "Field": "order_date",
+      "Header": "Order Date",
+      "DataType": "DateTime",
+      "DisplayType": "DateTime"
+    },
+    {
+      "Field": "entry_date",
+      "Header": "Entry Date",
+      "DataType": "DateTime",
+      "DisplayType": "DateTime"
+    }
+  ]
+}

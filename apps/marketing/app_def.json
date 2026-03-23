@@ -1,0 +1,17 @@
+{
+  "name": "marketing",
+  "display_name": "Marketing",
+  "description": "Manages marketing campaigns, contact lists, and tracking codes.",
+  "context": "The Marketing app is designed to help businesses plan, execute, and track their marketing efforts. It includes features for managing marketing campaigns, maintaining contact lists for outreach, and using tracking codes to measure the effectiveness of various marketing channels.",
+  "roles": ["Marketing Manager", "Campaign Analyst"],
+  "entities": {
+    "marketing_marketing_campaign": {
+      "description": "Represents a marketing initiative aimed at a specific audience or goal.",
+      "context_file": "docs/MarketingCampaign.md"
+    },
+    "marketing_contact_list": {
+      "description": "A collection of parties or contact mechanisms used for targeted marketing outreach.",
+      "context_file": "docs/ContactList.md"
+    }
+  }
+}

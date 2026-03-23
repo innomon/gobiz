@@ -1,0 +1,39 @@
+{
+  "Name": "Content",
+  "DisplayName": "Content",
+  "TableName": "content_content",
+  "Attributes": [
+    {
+      "Field": "content_id",
+      "Header": "Content ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "content_type_id",
+      "Header": "Content Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "ContentType"
+    },
+    {
+      "Field": "status_id",
+      "Header": "Status",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "StatusItem"
+    },
+    {
+      "Field": "content_name",
+      "Header": "Content Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

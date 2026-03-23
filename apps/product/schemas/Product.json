@@ -1,0 +1,32 @@
+{
+  "Name": "Product",
+  "DisplayName": "Product",
+  "TableName": "product",
+  "Attributes": [
+    {
+      "Field": "product_id",
+      "Header": "Product ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "product_type_id",
+      "Header": "Product Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "ProductType"
+    },
+    {
+      "Field": "product_name",
+      "Header": "Product Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

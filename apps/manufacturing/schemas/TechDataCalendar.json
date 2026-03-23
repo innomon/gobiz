@@ -1,0 +1,19 @@
+{
+  "Name": "TechDataCalendar",
+  "DisplayName": "Resource Calendar",
+  "TableName": "manufacturing_tech_data_calendar",
+  "Attributes": [
+    {
+      "Field": "calendar_id",
+      "Header": "Calendar ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

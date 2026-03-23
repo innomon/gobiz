@@ -1,0 +1,45 @@
+{
+  "Name": "BudgetItem",
+  "DisplayName": "Budget Item",
+  "TableName": "accounting_budget_item",
+  "Attributes": [
+    {
+      "Field": "budget_id",
+      "Header": "Budget",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Budget"
+    },
+    {
+      "Field": "budget_item_seq_id",
+      "Header": "Sequence ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "budget_item_type_id",
+      "Header": "Item Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "BudgetItemType"
+    },
+    {
+      "Field": "amount",
+      "Header": "Amount",
+      "DataType": "Float",
+      "DisplayType": "Number"
+    },
+    {
+      "Field": "purpose",
+      "Header": "Purpose",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "justification",
+      "Header": "Justification",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

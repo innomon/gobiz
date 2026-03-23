@@ -1,0 +1,47 @@
+{
+  "Name": "Employment",
+  "DisplayName": "Employment",
+  "TableName": "humanres_employment",
+  "Attributes": [
+    {
+      "Field": "role_type_id_from",
+      "Header": "Role Type From",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "RoleType"
+    },
+    {
+      "Field": "role_type_id_to",
+      "Header": "Role Type To",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "RoleType"
+    },
+    {
+      "Field": "party_id_from",
+      "Header": "Party ID From",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Party"
+    },
+    {
+      "Field": "party_id_to",
+      "Header": "Party ID To",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Party"
+    },
+    {
+      "Field": "from_date",
+      "Header": "From Date",
+      "DataType": "DateTime",
+      "DisplayType": "DateTime"
+    },
+    {
+      "Field": "thru_date",
+      "Header": "Thru Date",
+      "DataType": "DateTime",
+      "DisplayType": "DateTime"
+    }
+  ]
+}

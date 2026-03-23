@@ -1,0 +1,33 @@
+{
+  "Name": "Budget",
+  "DisplayName": "Budget",
+  "TableName": "accounting_budget",
+  "Attributes": [
+    {
+      "Field": "budget_id",
+      "Header": "Budget ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "budget_type_id",
+      "Header": "Budget Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "BudgetType"
+    },
+    {
+      "Field": "custom_time_period_id",
+      "Header": "Time Period",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "CustomTimePeriod"
+    },
+    {
+      "Field": "comments",
+      "Header": "Comments",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

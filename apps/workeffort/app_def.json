@@ -1,0 +1,13 @@
+{
+  "name": "workeffort",
+  "display_name": "Work Effort",
+  "description": "Manages tasks, projects, events, and resource assignments.",
+  "context": "The Work Effort app is the central point for managing all types of activities within the enterprise. It supports project management, task tracking, event scheduling, and resource allocation. It integrates with other apps like Manufacturing and Marketing to provide a unified view of work across the organization.",
+  "roles": ["Project Manager", "Team Member", "Resource Coordinator"],
+  "entities": {
+    "workeffort_work_effort": {
+      "description": "A core entity representing any unit of work, such as a task, project, event, or production run.",
+      "context_file": "docs/WorkEffort.md"
+    }
+  }
+}

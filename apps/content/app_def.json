@@ -1,0 +1,17 @@
+{
+  "name": "content",
+  "display_name": "Content Management",
+  "description": "Manages CMS, digital assets, and survey data.",
+  "context": "The Content app handles CMS functionality including digital assets, documents, and surveys. It is used to maintain the structure and content of websites, manage surveys, and organize various types of data resources used across the application.",
+  "roles": ["Content Admin", "Content User"],
+  "entities": {
+    "content_content": {
+      "description": "Represents a discrete piece of content, which could be a document, an image, or a structured data item.",
+      "context_file": "docs/Content.md"
+    },
+    "content_data_resource": {
+      "description": "Represents the underlying data for a piece of content, which could be stored in a database, on a filesystem, or retrieved via a URL.",
+      "context_file": "docs/DataResource.md"
+    }
+  }
+}

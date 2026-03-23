@@ -1,0 +1,32 @@
+{
+  "Name": "ContactList",
+  "DisplayName": "Contact List",
+  "TableName": "marketing_contact_list",
+  "Attributes": [
+    {
+      "Field": "contact_list_id",
+      "Header": "Contact List ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "contact_list_type_id",
+      "Header": "List Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "ContactListType"
+    },
+    {
+      "Field": "contact_list_name",
+      "Header": "List Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

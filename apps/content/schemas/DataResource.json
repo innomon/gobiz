@@ -1,0 +1,26 @@
+{
+  "Name": "DataResource",
+  "DisplayName": "Data Resource",
+  "TableName": "content_data_resource",
+  "Attributes": [
+    {
+      "Field": "data_resource_id",
+      "Header": "Data Resource ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "data_resource_type_id",
+      "Header": "Data Resource Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "DataResourceType"
+    },
+    {
+      "Field": "data_resource_name",
+      "Header": "Data Resource Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

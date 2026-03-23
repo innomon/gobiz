@@ -1,0 +1,38 @@
+{
+  "Name": "ProductManufacturingRule",
+  "DisplayName": "Product Manufacturing Rule",
+  "TableName": "manufacturing_product_manufacturing_rule",
+  "Attributes": [
+    {
+      "Field": "rule_id",
+      "Header": "Rule ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "product_id",
+      "Header": "Product",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Product"
+    },
+    {
+      "Field": "rule_operator",
+      "Header": "Operator",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "quantity",
+      "Header": "Quantity",
+      "DataType": "Number",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

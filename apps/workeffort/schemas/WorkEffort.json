@@ -1,0 +1,45 @@
+{
+  "Name": "WorkEffort",
+  "DisplayName": "Work Effort",
+  "TableName": "workeffort_work_effort",
+  "Attributes": [
+    {
+      "Field": "work_effort_id",
+      "Header": "Work Effort ID",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "work_effort_type_id",
+      "Header": "Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "WorkEffortType"
+    },
+    {
+      "Field": "current_status_id",
+      "Header": "Status",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "StatusItem"
+    },
+    {
+      "Field": "last_status_update",
+      "Header": "Last Updated",
+      "DataType": "DateTime",
+      "DisplayType": "DateTime"
+    },
+    {
+      "Field": "work_effort_name",
+      "Header": "Name",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "description",
+      "Header": "Description",
+      "DataType": "String",
+      "DisplayType": "Text"
+    }
+  ]
+}

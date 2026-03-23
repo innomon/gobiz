@@ -1,0 +1,40 @@
+{
+  "Name": "PartyQual",
+  "DisplayName": "Party Qualification",
+  "TableName": "humanres_party_qual",
+  "Attributes": [
+    {
+      "Field": "party_id",
+      "Header": "Party ID",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "Party"
+    },
+    {
+      "Field": "party_qual_type_id",
+      "Header": "Qualification Type",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "PartyQualType"
+    },
+    {
+      "Field": "title",
+      "Header": "Title",
+      "DataType": "String",
+      "DisplayType": "Text"
+    },
+    {
+      "Field": "status_id",
+      "Header": "Status",
+      "DataType": "Lookup",
+      "DisplayType": "Select",
+      "Options": "StatusItem"
+    },
+    {
+      "Field": "from_date",
+      "Header": "From Date",
+      "DataType": "DateTime",
+      "DisplayType": "DateTime"
+    }
+  ]
+}
